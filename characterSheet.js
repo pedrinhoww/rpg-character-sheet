@@ -1,37 +1,37 @@
 const data = {
-  name: 'Claudio',
-  player: 'Ryan',
-  occupation: 'Caçador',
-  age: 21,
+  name: 'Javier Rodiguez',
+  player: 'Pedro',
+  occupation: 'Combatente',
+  age: 32,
   sex: 'male',
-  birthplace: 'São paulo',
+  birthplace: 'Mexico',
   residence: 'São paulo',
 
   life: {
-    current: 12,
-    max: 12,
+    current: 70,
+    max: 70,
   },
   sanity: {
-    current: 62,
-    max: 62,
+    current: 45,
+    max: 45,
   },
 
   weapons: [
     {
-      name: 'Balestra',
-      type: 'Arco',
-      damage: '1d20',
-      numCurrent: 1,
-      numMax: 1,
+      name: 'Pistola',
+      type: 'Armas de fogo',
+      damage: '1d10+2',
+      numCurrent: 6,
+      numMax: 6,
       attack: 5,
       reach: '10 m',
       defect: 1,
       area: '',
     },
     {
-      name: 'Canivete',
+      name: 'Baioneta',
       type: 'Briga',
-      damage: '1d10',
+      damage: '1d6+1+bonus',
       numCurrent: '',
       numMax: '',
       attack: '1/2',
@@ -43,43 +43,95 @@ const data = {
   attributes: [
     {
       type: 'Aparência',
-      amount: 10,
+      amount: 13,
     },
     {
       type: 'Constituição',
-      amount: 10,
+      amount: 14,
     },
     {
       type: 'Destreza',
-      amount: 10,
+      amount: 15,
     },
     {
       type: 'Educação',
-      amount: 10,
+      amount: 11,
     },
     {
       type: 'Força',
-      amount: 10,
+      amount: 14,
     },
     {
       type: 'Inteligência',
-      amount: 10,
+      amount: 12,
     },
     {
       type: 'Poder',
-      amount: 10,
+      amount: 15,
     },
     {
       type: 'Sorte',
+      amount: 5,
+    },
+    {
+      type: 'Armas de fogo',
+      amount: 11,
+    },
+    {
+      type: 'Armas Brancas',
       amount: 10,
     },
     {
-      type: 'Movimento',
+      type: 'arremessar',
+      amount: 9,
+    },
+    {
+      type: 'Dirigir',
+      amount: 4,
+    },
+    {
+      type: 'Carisma',
+      amount: 7,
+    },
+    {
+      type: 'Encontrar',
+      amount: 7,
+    },
+    {
+      type: 'Escutar',
+      amount: 6,
+    },
+    {
+      type: 'Esquiva',
       amount: 10,
     },
     {
-      type: '?',
-      amount: 10,
+      type: 'Intimidação',
+      amount: 4,
+    },
+    {
+      type: 'Labia',
+      amount: 6,
+    },
+    {
+      type: 'Lutar briga',
+      amount: 12,
+    },
+    {
+      type: 'Medicina',
+      amount: 4,
+    },
+    {
+      type: 'Ocultismo',
+      amount: 8,
+    },
+    {
+      type: 'Primeiros Socorros',
+      amount: 5,
+    },
+    {
+      type: 'Usar bibliotecas investigar',
+      amount: 7,
     },
   ],
 }
